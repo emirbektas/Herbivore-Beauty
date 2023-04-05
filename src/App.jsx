@@ -10,7 +10,9 @@ function App() {
       <Navbar />
       <Hero />
       <Products />
-      <Ingredients />
+      <div className="px-5">
+        <Ingredients />
+      </div>
     </div>
   );
 }

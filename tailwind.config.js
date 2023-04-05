@@ -6,7 +6,14 @@ export default {
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        probg: "url('./src/images/other/bg.jpg')",
+      },
+      backgroundSize: {
+        half: "100% 40%",
+      },
+    },
     colors: {
       guap: "#173f35",
       whitey: "#f2f2f1",

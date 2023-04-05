@@ -4,6 +4,8 @@ import Plant from "../images/svg/plant.svg";
 import Rabbit from "../images/svg/rabbit.svg";
 import Recycle from "../images/svg/recycle.svg";
 import Hand from "../images/svg/hand-plant.svg";
+import List from "../images/other/papaya.jpg";
+import Bunny from "../images/other/bunny.jpg";
 
 function Ingredients() {
   return (
@@ -48,7 +50,38 @@ function Ingredients() {
           <span className="text-guap text-sm font-bold ">CARBON OFFSET</span>
         </div>
       </div>
-      <div>OUR NJO LIST </div>
+      <div className="grid grid-cols-2 gap-10 mt-20">
+        <div className="text-center">
+          <img src={List} className="rounded-lg" />
+          <h1 className="text-xl font-bold mt-10 mb-10">OUR NO LIST</h1>
+          <p>
+            At{" "}
+            <span className="italic font-bold text-guap">Herbivore Beauty</span>
+            , we say NO to ingredients and processes that cause harm to
+            ourselves and the environment we live in. It is our belief that
+            everything we need to make the products you love can be found in
+            nature.
+          </p>
+          <button className="p-2 bg-guap text-sm text-white mt-3 rounded">
+            FIND OUT MORE
+          </button>
+        </div>
+        <div className="text-center">
+          <img src={Bunny} className="rounded-lg" />
+          <h1 className="text-xl font-bold mt-10 mb-3">
+            WHY SHOPPING CRUELTY FREE IS IMPORTANT
+          </h1>
+          <p>
+            If you're familiar with Sukin Naturals, you probably know that being
+            a socially responsible brand is very important to us. Part of that
+            commitment is delivering great products that are both vegan and
+            always cruelty-free.
+          </p>
+          <button className="p-2 bg-guap text-sm text-white mt-3 rounded">
+            READ MORE
+          </button>
+        </div>
+      </div>
     </>
   );
 }
