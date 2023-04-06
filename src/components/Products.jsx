@@ -19,8 +19,8 @@ function Products() {
     slidesToScroll: 1,
   };
   return (
-    <div className="overflow-hidden bg-whitey">
-      <div className="p-6">
+    <div className="overflow-hidden bg-soft">
+      <div className="px-6 pb-12">
         <Slider {...settings}>
           <div className="text-center p-10 ">
             <a href="">

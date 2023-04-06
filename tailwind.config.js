@@ -19,6 +19,7 @@ export default {
       whitey: "#f2f2f1",
       gwite: "#ebeaef",
       darky: "#1c1c1c",
+      soft: "#f4f3f0",
     },
   },
   plugins: [require("flowbite/plugin")],

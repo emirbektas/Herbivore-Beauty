@@ -1,9 +1,11 @@
 import "./App.css";
 import Hero from "./components/Hero";
-import Ingredients from "./components/Ingredients";
+import Info from "./components/Info";
 import Navbar from "./components/Navbar";
 import Bests from "./components/Bests";
 import Products from "./components/Products";
+import Ingredients from "./components/Ingredients";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,9 +14,11 @@ function App() {
       <Hero />
       <Bests />
       <div className="px-5">
-        <Ingredients />
+        <Info />
       </div>
       <Products />
+      <Ingredients />
+      <Footer />
     </div>
   );
 }
