@@ -9,7 +9,7 @@ import Bunny from "../images/other/bunny.jpg";
 
 function Ingredients() {
   return (
-    <>
+    <div className="mb-20">
       <div className="grid grid-cols-3 gap-10 mt-12">
         <div className="my-auto text-center">
           <img src={Swiss} className="w-full h-12" alt="" />
@@ -72,17 +72,18 @@ function Ingredients() {
             WHY SHOPPING CRUELTY FREE IS IMPORTANT
           </h1>
           <p>
-            If you're familiar with Sukin Naturals, you probably know that being
-            a socially responsible brand is very important to us. Part of that
-            commitment is delivering great products that are both vegan and
-            always cruelty-free.
+            If you're familiar with{" "}
+            <span className="text-guap italic font-bold">Herbivore Beauty</span>
+            , you probably know that being a socially responsible brand is very
+            important to us. Part of that commitment is delivering great
+            products that are both vegan and always cruelty-free.
           </p>
           <button className="p-2 bg-guap text-sm text-white mt-3 rounded">
             READ MORE
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

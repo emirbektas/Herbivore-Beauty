@@ -2,11 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Cleanser from "../images/other/cleanser.jpg";
-import Sunscreen from "../images/other/sunscreen.jpg";
-import Tonic from "../images/other/tonic.jpg";
-import Bundle from "../images/other/bundle.jpg";
-import { BsStarFill, BsStarHalf } from "react-icons/bs";
+import Moisturiser from "../images/other/moisturizing.webp";
+import Acid from "../images/other/acid.webp";
+import Cleanser from "../images/other/cleanser.webp";
+import Cleanser2 from "../images/other/cleanser2.webp";
+import Sunscreen from "../images/other/sunscreen.webp";
+import Vitamin from "../images/other/vitamin.webp";
+import Bundle from "../images/other/bundle.webp";
 
 function Products() {
   var settings = {
@@ -17,47 +19,43 @@ function Products() {
     slidesToScroll: 1,
   };
   return (
-    <div className="overflow-hidden bg-probg bg-half bg-no-repeat bg-center-top h-screen w-full -mb-40">
-      <div className="p-4">
-        <h1 className="text-center font-bold text-2xl text-guap mt-2">
-          OUR BEST SELLERS
-        </h1>
+    <div className="overflow-hidden bg-whitey">
+      <div className="p-6">
         <Slider {...settings}>
-          {/* <div className="text-center p-6">
-          <a href="">
-            <div className="text-left">
-              <img src={Serum} />
-              <h1 className="font-bold mb-2">Serum</h1>
-              <p className="text-guap italic text-sm">$15.99</p>
-              <div className="reviews flex">
-                <p className="text-sm flex text-yellow-400 my-auto">
-                  <BsStarFill />
-                  <BsStarFill />
-                  <BsStarFill />
-                  <BsStarFill />
-                  <BsStarHalf />
-                </p>
-
-                <p className="text-sm ml-1 text-yellow-600">27 reviews</p>
-              </div>
-            </div>
-          </a>
-        </div> */}
           <div className="text-center p-10 ">
             <a href="">
               <div className="text-left">
-                <img src={Cleanser} className="rounded" />
-                <h1 className="font-bold mb-2">Cleanser</h1>
+                <img src={Moisturiser} className="bg-gray-50 rounded-lg p-3" />
+                <h1 className="font-bold my-2">Moisturizer</h1>
                 <p className="text-guap italic text-sm">$15.99</p>
                 <div className="reviews flex">
-                  <p className="text-sm flex my-auto text-yellow-400">
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarHalf />
-                  </p>
-                  <p className="text-sm ml-1 text-yellow-600">5 Reviews</p>
+                  <p className="text-sm">5 Reviews</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="text-center p-10 ">
+            <a href="">
+              <div className="text-left">
+                <img src={Acid} className="bg-gray-50 rounded-lg p-3" />
+                <h1 className="font-bold my-2">Azelaic Acid Suspension 10%</h1>
+                <p className="text-guap italic text-sm">$15.99</p>
+                <div className="reviews flex">
+                  <p className="text-sm">5 Reviews</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div className="text-center p-10 ">
+            <a href="">
+              <div className="text-left">
+                <img src={Cleanser} className="bg-gray-50 rounded-lg p-3" />
+                <h1 className="font-bold my-2">Squalane Cleanser</h1>
+                <p className="text-guap italic text-sm">$15.99</p>
+                <div className="reviews flex">
+                  <p className="text-sm">5 Reviews</p>
                 </div>
               </div>
             </a>
@@ -65,26 +63,11 @@ function Products() {
           <div className="text-center p-10 ">
             <a href="">
               <div className="text-left">
-                {/* <div class="absolute overflow-hidden w-56 h-56">
-                <div class="absolute left-0 top-0 h-16 w-16">
-                  <div class="absolute transform -rotate-45 bg-guap text-center text-white font-semibold py-1 left-[-34px] top-[32px] w-[170px]">
-                    Popular
-                  </div>
-                </div>
-              </div> */}
-                <img src={Sunscreen} className="rounded" />
-                <h1 className="font-bold mb-2">Sunscreen</h1>
-
+                <img src={Cleanser2} className="bg-gray-50 rounded-lg p-3" />
+                <h1 className="font-bold my-2">Glucoside Foaming Cleanser</h1>
                 <p className="text-guap italic text-sm">$15.99</p>
                 <div className="reviews flex">
-                  <p className="text-sm flex my-auto text-yellow-400">
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarHalf />
-                  </p>
-                  <p className="text-sm ml-1 text-yellow-600">5 Reviews</p>
+                  <p className="text-sm">5 Reviews</p>
                 </div>
               </div>
             </a>
@@ -92,18 +75,23 @@ function Products() {
           <div className="text-center p-10 ">
             <a href="">
               <div className="text-left">
-                <img src={Tonic} className="rounded" />
-                <h1 className="font-bold mb-2">Tonic</h1>
+                <img src={Sunscreen} className="bg-gray-50 rounded-lg p-3" />
+                <h1 className="font-bold my-2">Sunscreen SPF 30</h1>
                 <p className="text-guap italic text-sm">$15.99</p>
                 <div className="reviews flex">
-                  <p className="text-sm flex my-auto text-yellow-400">
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarHalf />
-                  </p>
-                  <p className="text-sm ml-1 text-yellow-600">5 Reviews</p>
+                  <p className="text-sm">5 Reviews</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div className="text-center p-10 ">
+            <a href="">
+              <div className="text-left">
+                <img src={Vitamin} className="bg-gray-50 rounded-lg p-3" />
+                <h1 className="font-bold my-2">Vitamin C</h1>
+                <p className="text-guap italic text-sm">$15.99</p>
+                <div className="reviews flex">
+                  <p className="text-sm">5 Reviews</p>
                 </div>
               </div>
             </a>
@@ -112,34 +100,22 @@ function Products() {
             <a href="">
               <div className="text-left">
                 <div class="absolute overflow-hidden w-56 h-56">
-                  <div class="absolute left-0 top-0 h-16 w-16">
+                  <div class="absolute left-0 top-0">
                     <div class="absolute transform -rotate-45 bg-guap text-center text-white font-semibold py-1 left-[-34px] top-[32px] w-[170px]">
                       Save 10$ !!
                     </div>
                   </div>
                 </div>
-                <img src={Bundle} className="rounded" />
-                <h1 className="font-bold mb-2">Bundle</h1>
-                <p className="text-guap italic text-sm">$15.99</p>
+                <img src={Bundle} className="bg-gray-50 rounded-lg p-3" />
+                <h1 className="font-bold my-2">Bundle</h1>
+                <p className="text-guap italic text-sm">$49.99</p>
                 <div className="reviews flex">
-                  <p className="text-sm flex my-auto text-yellow-400">
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarFill />
-                    <BsStarHalf />
-                  </p>
-                  <p className="text-sm ml-1 text-yellow-600">5 Reviews</p>
+                  <p className="text-sm">5 Reviews</p>
                 </div>
               </div>
             </a>
           </div>
         </Slider>
-        <div className="text-center">
-          <button className="p-3 bg-white border border-guap text-guap text-sm rounded-md mt-12 hover:bg-guap hover:text-white">
-            SEE ALL
-          </button>
-        </div>
       </div>
     </div>
   );

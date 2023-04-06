@@ -2,6 +2,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Ingredients from "./components/Ingredients";
 import Navbar from "./components/Navbar";
+import Bests from "./components/Bests";
 import Products from "./components/Products";
 
 function App() {
@@ -9,10 +10,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Products />
+      <Bests />
       <div className="px-5">
         <Ingredients />
       </div>
+      <Products />
     </div>
   );
 }
