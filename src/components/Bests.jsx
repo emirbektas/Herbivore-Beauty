@@ -7,6 +7,8 @@ import Sunscreen from "../images/other/sunscreen.jpg";
 import Tonic from "../images/other/tonic.jpg";
 import Bundle from "../images/other/bundle.jpg";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
+import { Link } from "react-router-dom";
+import ProductPage from "./pages/ProductPage";
 
 function Bests() {
   var settings = {
@@ -23,26 +25,6 @@ function Bests() {
           OUR BEST SELLERS
         </h1>
         <Slider {...settings}>
-          {/* <div className="text-center p-6">
-          <a href="">
-            <div className="text-left">
-              <img src={Serum} />
-              <h1 className="font-bold mb-2">Serum</h1>
-              <p className="text-guap italic text-sm">$15.99</p>
-              <div className="reviews flex">
-                <p className="text-sm flex text-yellow-400 my-auto">
-                  <BsStarFill />
-                  <BsStarFill />
-                  <BsStarFill />
-                  <BsStarFill />
-                  <BsStarHalf />
-                </p>
-
-                <p className="text-sm ml-1 text-yellow-600">27 reviews</p>
-              </div>
-            </div>
-          </a>
-        </div> */}
           <div className="text-center p-10 ">
             <a href="">
               <div className="text-left">
@@ -137,7 +119,7 @@ function Bests() {
         </Slider>
         <div className="text-center">
           <button className="p-3 bg-white border border-guap text-guap text-sm rounded-md mt-12 hover:bg-guap hover:text-white">
-            SEE ALL
+            <Link to="/products">SEE ALL</Link>
           </button>
         </div>
       </div>

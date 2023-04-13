@@ -1,25 +1,16 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import Info from "./components/Info";
-import Navbar from "./components/Navbar";
-import Bests from "./components/Bests";
-import Products from "./components/Products";
-import Ingredients from "./components/Ingredients";
-import Footer from "./components/Footer";
+import ProductPage from "./components/pages/ProductPage";
+import HomePage from "./components/pages/HomePage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <Bests />
-      <div className="px-5">
-        <Info />
-      </div>
-      <Products />
-      <Ingredients />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes className="App">
+        <Route path="/" element={<HomePage />}></Route>
+        <Route path="/products" element={<ProductPage />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
