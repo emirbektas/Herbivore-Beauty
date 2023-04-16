@@ -1,11 +1,11 @@
 import React from "react";
-import Swiss from "../images/svg/swiss2.svg";
-import Plant from "../images/svg/plant.svg";
-import Rabbit from "../images/svg/rabbit.svg";
-import Recycle from "../images/svg/recycle.svg";
-import Hand from "../images/svg/hand-plant.svg";
-import List from "../images/other/papaya.jpg";
-import Bunny from "../images/other/bunny.jpg";
+import Swiss from "../../images/svg/swiss2.svg";
+import Plant from "../../images/svg/plant.svg";
+import Rabbit from "../../images/svg/rabbit.svg";
+import Recycle from "../../images/svg/recycle.svg";
+import Hand from "../../images/svg/hand-plant.svg";
+import List from "../../images/other/papaya.jpg";
+import Bunny from "../../images/other/bunny.jpg";
 
 function Info() {
   return (

@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsFilter, BsChevronDown } from "react-icons/bs";
-import Navbar from "../Navbar";
-import Acid from "../../images/other/acid.webp";
-import Moisturizer from "../../images/other/moisturizing.webp";
-import Bundle from "../../images/other/bundle.webp";
-import Cleanser from "../../images/other/cleanser.webp";
-import Sunscreen from "../../images/other/sunscreen.webp";
-import Vitamin from "../../images/other/vitamin.webp";
-import ProductItem from "../ProductItem";
+import Navbar from "./MainPage/Navbar";
+import Acid from "../images/other/acid.webp";
+import Moisturizer from "../images/other/moisturizing.webp";
+import Bundle from "../images/other/bundle.webp";
+import Cleanser from "../images/other/cleanser.webp";
+import Sunscreen from "../images/other/sunscreen.webp";
+import Vitamin from "../images/other/vitamin.webp";
+import Product from "./Product";
+import { Link } from "react-router-dom";
+import Cart from "./Cart";
 function ProductPage() {
   const products = [
     {
@@ -55,6 +57,7 @@ function ProductPage() {
           <h1 className="text-2xl text-guap">BEST SELLERS</h1>
         </div>
       </div>
+
       <div className="products p-5">
         <div className="buttons flex justify-between mb-5 m-2">
           <button className="px-24 py-1 border border-guap flex hover:bg-guap hover:text-white">
@@ -69,7 +72,7 @@ function ProductPage() {
 
         <div className="item-list grid grid-cols-2 gap-5">
           {products.map((product) => (
-            <ProductItem
+            <Product
               key={product.id}
               image={product.image}
               name={product.name}

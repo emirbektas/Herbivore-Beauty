@@ -1,7 +1,7 @@
 import React from "react";
-import Caro1 from "../images/other/carousel1.png";
-import Caro2 from "../images/other/carousel2.png";
-import Caro3 from "../images/other/carousel3.jpeg";
+import Caro1 from "../../images/other/carousel1.png";
+import Caro2 from "../../images/other/carousel2.png";
+import Caro3 from "../../images/other/carousel3.jpeg";
 import { Carousel } from "flowbite-react";
 
 function Hero() {

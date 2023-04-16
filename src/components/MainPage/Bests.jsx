@@ -2,13 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Cleanser from "../images/other/cleanser.jpg";
-import Sunscreen from "../images/other/sunscreen.jpg";
-import Tonic from "../images/other/tonic.jpg";
-import Bundle from "../images/other/bundle.jpg";
+import Cleanser from "../../images/other/cleanser.jpg";
+import Sunscreen from "../../images/other/sunscreen.jpg";
+import Tonic from "../../images/other/tonic.jpg";
+import Bundle from "../../images/other/bundle.jpg";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import ProductPage from "./pages/ProductPage";
+import ProductPage from "../ProductPage";
 
 function Bests() {
   var settings = {

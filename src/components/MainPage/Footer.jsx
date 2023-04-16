@@ -3,12 +3,12 @@ import { Accordion } from "flowbite-react";
 import { FaTiktok, FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 
-import Footer1 from "../images/svg/footer1.svg";
-import Footer2 from "../images/svg/footer2.svg";
-import Footer3 from "../images/svg/footer3.svg";
-import Footer4 from "../images/svg/footer4.svg";
-import Footer5 from "../images/svg/footer5.svg";
-import Footer6 from "../images/svg/footer6.svg";
+import Footer1 from "../../images/svg/footer1.svg";
+import Footer2 from "../../images/svg/footer2.svg";
+import Footer3 from "../../images/svg/footer3.svg";
+import Footer4 from "../../images/svg/footer4.svg";
+import Footer5 from "../../images/svg/footer5.svg";
+import Footer6 from "../../images/svg/footer6.svg";
 function Footer() {
   return (
     <div>

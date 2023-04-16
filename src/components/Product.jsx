@@ -1,13 +1,7 @@
 import React from "react";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
-import Acid from "../images/other/acid.webp";
-import Moisturizer from "../images/other/moisturizing.webp";
-import Bundle from "../images/other/bundle.webp";
-import Cleanser from "../images/other/cleanser.webp";
-import Sunscreen from "../images/other/sunscreen.webp";
-import Vitamin from "../images/other/vitamin.webp";
 
-function ProductItem(props) {
+function Product(props) {
   const { name, price, image } = props;
   return (
     <div className="item flex flex-col p-2 relative bg-soft rounded-lg hover:scale-105 transition-all">
@@ -32,4 +26,4 @@ function ProductItem(props) {
   );
 }
 
-export default ProductItem;
+export default Product;

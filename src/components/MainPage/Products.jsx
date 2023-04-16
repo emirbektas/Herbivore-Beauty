@@ -2,13 +2,13 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Moisturiser from "../images/other/moisturizing.webp";
-import Acid from "../images/other/acid.webp";
-import Cleanser from "../images/other/cleanser.webp";
-import Cleanser2 from "../images/other/cleanser2.webp";
-import Sunscreen from "../images/other/sunscreen.webp";
-import Vitamin from "../images/other/vitamin.webp";
-import Bundle from "../images/other/bundle.webp";
+import Moisturiser from "../../images/other/moisturizing.webp";
+import Acid from "../../images/other/acid.webp";
+import Cleanser from "../../images/other/cleanser.webp";
+import Cleanser2 from "../../images/other/cleanser2.webp";
+import Sunscreen from "../../images/other/sunscreen.webp";
+import Vitamin from "../../images/other/vitamin.webp";
+import Bundle from "../../images/other/bundle.webp";
 
 function Products() {
   var settings = {

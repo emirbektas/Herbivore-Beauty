@@ -1,10 +1,10 @@
 import React from "react";
-import Plant from "../images/svg/plant2.svg";
-import Fruit from "../images/svg/fruits.svg";
-import Vegetable from "../images/svg/vegetables.svg";
-import Essential from "../images/svg/essential.svg";
-import Native from "../images/svg/native.svg";
-import Botanical from "../images/svg/botanical.svg";
+import Plant from "../../images/svg/plant2.svg";
+import Fruit from "../../images/svg/fruits.svg";
+import Vegetable from "../../images/svg/vegetables.svg";
+import Essential from "../../images/svg/essential.svg";
+import Native from "../../images/svg/native.svg";
+import Botanical from "../../images/svg/botanical.svg";
 
 function Ingredients() {
   return (

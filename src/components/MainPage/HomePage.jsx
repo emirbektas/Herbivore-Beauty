@@ -1,10 +1,10 @@
-import Hero from "../Hero";
-import Info from "../Info";
-import Navbar from "../Navbar";
-import Bests from "../Bests";
-import Products from "../Products";
-import Ingredients from "../Ingredients";
-import Footer from "../Footer";
+import Hero from "./Hero";
+import Info from "./Info";
+import Navbar from "./Navbar";
+import Bests from "./Bests";
+import Products from "./Products";
+import Ingredients from "./Ingredients";
+import Footer from "./Footer";
 
 import React from "react";
 
