@@ -8,8 +8,6 @@ import Cleanser from "../images/other/cleanser.webp";
 import Sunscreen from "../images/other/sunscreen.webp";
 import Vitamin from "../images/other/vitamin.webp";
 import Product from "./Product";
-import { Link } from "react-router-dom";
-import Cart from "./Cart";
 function ProductPage() {
   const products = [
     {
@@ -49,6 +47,7 @@ function ProductPage() {
       price: "$49.99",
     },
   ];
+  const [pr, setPr] = useState([products]);
   return (
     <div className="container">
       <div className="nav">
