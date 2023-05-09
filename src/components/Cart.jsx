@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./MainPage/Navbar";
 
 function Cart() {
   return (
     <div>
-      <Navbar />
-      Cartt
+      <h2>Cart</h2>
+
+      <span>There are no items in the cart.</span>
     </div>
   );
 }

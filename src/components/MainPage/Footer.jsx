@@ -19,17 +19,17 @@ function Footer() {
           </div>
 
           <form>
-            <div class="relative w-full">
+            <div className="relative w-full">
               <input
                 type="search"
                 id="search-dropdown"
-                class="block p-2.5 w-60 z-20 text-sm text-white bg-guap rounded-lg border border-white placeholder-gwite"
+                className="block p-2.5 w-60 z-20 text-sm text-white bg-guap rounded-lg border border-white placeholder-gwite"
                 placeholder="Search"
                 required
               />
               <button
                 type="submit"
-                class="absolute top-0 right-0 p-2.5 text-sm font-medium text-white bg-guap rounded-r-lg border border-white"
+                className="absolute top-0 right-0 p-2.5 text-sm font-medium text-white bg-guap rounded-r-lg border border-white"
               >
                 Sign up
               </button>
