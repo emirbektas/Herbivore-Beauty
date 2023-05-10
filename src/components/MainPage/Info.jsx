@@ -9,8 +9,8 @@ import Bunny from "../../images/other/bunny.jpg";
 
 function Info() {
   return (
-    <div className="mb-20">
-      <div className="grid grid-cols-3 gap-10 mt-12">
+    <div className="mb-20 mt-20">
+      <div className="grid grid-cols-3 gap-10">
         <div className="my-auto text-center">
           <img src={Swiss} className="w-full h-12" alt="" />
           <span className="text-guap text-sm font-bold">SWISS MADE</span>

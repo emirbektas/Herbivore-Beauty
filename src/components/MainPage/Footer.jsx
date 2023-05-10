@@ -127,7 +127,7 @@ function Footer() {
       <div className="p-5 bg-guap">
         <div>
           <div>
-            <div className="flex justify-evenly">
+            <div className="flex justify-around">
               <div className="flex text-center truncate">
                 <img src={Footer1} className="w-full h-6 my-auto" alt="" />
                 <span className="text-white text-xs my-auto">SWISS MADE</span>
@@ -146,7 +146,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="flex justify-evenly mt-2">
+            <div className="flex justify-around mt-2">
               <div className="flex text-center truncate">
                 <img src={Footer4} className="w-full h-6 my-auto" alt="" />
                 <span className="text-white text-xs  my-auto">

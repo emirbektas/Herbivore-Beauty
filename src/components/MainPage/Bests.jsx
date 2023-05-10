@@ -8,7 +8,6 @@ import Tonic from "../../images/other/tonic.jpg";
 import Bundle from "../../images/other/bundle.jpg";
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import ProductPage from "../ProductPage";
 
 function Bests() {
   var settings = {
@@ -17,18 +16,26 @@ function Bests() {
     speed: 500,
     slidesToShow: 1.75,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
   return (
-    <div className="overflow-hidden bg-probg bg-half bg-no-repeat bg-center-top h-screen w-full -mb-40">
+    <div className="overflow-hidden bg-probg bg-half bg-no-repeat bg-center-top h-full w-full ">
       <div className="p-4">
         <h1 className="text-center font-bold text-2xl text-guap mt-2">
           OUR BEST SELLERS
         </h1>
-        <Slider {...settings}>
-          <div className="text-center p-10 ">
+        <Slider {...settings} className="lg:w-4/5 mx-auto">
+          <div className="text-center p-10">
             <a href="">
               <div className="text-left">
-                <img src={Cleanser} className="rounded" />
+                <img src={Cleanser} className="rounded " />
                 <h1 className="font-bold mb-2">Cleanser</h1>
                 <p className="text-guap italic text-sm">$15.99</p>
                 <div className="reviews flex">

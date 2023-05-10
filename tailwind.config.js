@@ -21,6 +21,14 @@ export default {
       darky: "#1c1c1c",
       soft: "#f4f3f0",
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      btw: "800px",
+      lg: "1024px",
+      xl: "1280px",
+      xxl: "1536px",
+    },
   },
   plugins: [require("flowbite/plugin")],
 };
