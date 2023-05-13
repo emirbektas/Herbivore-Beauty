@@ -8,7 +8,7 @@ import Botanical from "../../images/svg/botanical.svg";
 
 function Ingredients() {
   return (
-    <div className="text-center my-16">
+    <div className="text-center my-16" id="ingredients">
       <h1 className="font-bold text-guap text-2xl mb-5">OUR INGREDIENTS</h1>
       <div className="grid grid-cols-3 gap-y-10">
         <div className="bg-soft mx-3 py-3">

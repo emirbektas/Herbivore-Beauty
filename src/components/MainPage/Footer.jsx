@@ -11,7 +11,7 @@ import Footer5 from "../../images/svg/footer5.svg";
 import Footer6 from "../../images/svg/footer6.svg";
 function Footer() {
   return (
-    <div>
+    <div id="faq">
       <div className="bg-guap p-7">
         <div className="flex justify-between my-auto">
           <div className="my-auto">
