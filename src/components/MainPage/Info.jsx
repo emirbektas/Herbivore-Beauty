@@ -50,7 +50,7 @@ function Info() {
           <span className="text-guap text-sm font-bold ">CARBON OFFSET</span>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-10 mt-20">
+      <div className="grid grid-cols-2 gap-10 mt-20 lg:px-20">
         <div className="text-center">
           <img src={List} className="rounded-lg" />
           <h1 className="text-xl font-bold mt-10 mb-10">OUR NO LIST</h1>
