@@ -11,8 +11,8 @@ import Footer5 from "../../images/svg/footer5.svg";
 import Footer6 from "../../images/svg/footer6.svg";
 function Footer() {
   return (
-    <div id="faq">
-      <div className="bg-guap p-7">
+    <div id="faq" className="bg-whitey">
+      <div className="bg-guap p-7 xl:px-20 xxl:px-40">
         <div className="flex justify-between my-auto">
           <div className="my-auto">
             <h1 className="text-xl font-bold text-white">STAY IN TOUCH</h1>
@@ -37,7 +37,7 @@ function Footer() {
           </form>
         </div>
       </div>
-      <div className="px-5 mt-5">
+      <div className="px-5 mt-5 xl:px-20 xxl:px-40">
         <Accordion alwaysOpen={true}>
           <Accordion.Panel>
             <Accordion.Title>
@@ -106,7 +106,7 @@ function Footer() {
           </Accordion.Panel>
         </Accordion>
       </div>
-      <div className="p-5 flex justify-between">
+      <div className="p-5 flex justify-between xl:px-20 xxl:px-40">
         <div className="my-auto">
           <h1 className="text-xl font-bold">Follow Herbivore Beauty</h1>
         </div>

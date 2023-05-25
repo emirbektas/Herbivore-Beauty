@@ -10,7 +10,7 @@ import React from "react";
 
 function HomePage() {
   return (
-    <div className="App">
+    <div className="App bg-cream">
       <Navbar />
       <Hero />
       <Bests />

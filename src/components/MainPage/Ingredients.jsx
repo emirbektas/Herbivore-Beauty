@@ -8,30 +8,30 @@ import Botanical from "../../images/svg/botanical.svg";
 
 function Ingredients() {
   return (
-    <div className="text-center my-16" id="ingredients">
+    <div className="text-center my-16 " id="ingredients">
       <h1 className="font-bold text-guap text-2xl mb-5">OUR INGREDIENTS</h1>
-      <div className="grid grid-cols-3 gap-y-10">
-        <div className="bg-soft mx-3 py-3">
+      <div className="grid grid-cols-3 gap-y-10 lg:grid-cols-6 lg:px-20">
+        <div className="bg-soft mx-3 py-3 hover:bg-cream cursor-pointer">
           <img src={Plant} className="w-16 mx-auto" />
           <h3 className="text-sm text-guap mt-2">Plant Oils</h3>
         </div>
-        <div className="bg-soft mx-3 py-3">
+        <div className="bg-soft mx-3 py-3 hover:bg-cream cursor-pointer">
           <img src={Fruit} className="w-16 mx-auto" />
           <h3 className="text-sm text-guap mt-2">Fruit</h3>
         </div>
-        <div className="bg-soft mx-3 py-3">
+        <div className="bg-soft mx-3 py-3 hover:bg-cream cursor-pointer">
           <img src={Vegetable} className="w-16 mx-auto" />
           <h3 className="text-sm text-guap mt-2">Vegetable</h3>
         </div>
-        <div className="bg-soft mx-3 py-3">
+        <div className="bg-soft mx-3 py-3 hover:bg-cream cursor-pointer">
           <img src={Essential} className="w-16 mx-auto" />
           <h3 className="text-sm text-guap mt-2">Essential Oils</h3>
         </div>
-        <div className="bg-soft mx-3 py-3">
+        <div className="bg-soft mx-3 py-3 hover:bg-cream cursor-pointer">
           <img src={Native} className="w-16 mx-auto" />
           <h3 className="text-sm text-guap mt-2">Natives</h3>
         </div>
-        <div className="bg-soft mx-3 py-3">
+        <div className="bg-soft mx-3 py-3 hover:bg-cream cursor-pointer">
           <img src={Botanical} className="w-16 mx-auto" />
           <h3 className="text-sm text-guap mt-2">Botanicals</h3>
         </div>

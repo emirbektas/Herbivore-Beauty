@@ -14,7 +14,7 @@ function Navbar({ count }) {
     navigateTo("/");
   };
   return (
-    <div className="grid grid-cols-3 items-center bg-gwite p-5">
+    <div className="grid grid-cols-3 items-center bg-cream p-5">
       <div className="basis-1/3">
         <div>
           <FiMenu size={25} className="text-guap lg:hidden" />

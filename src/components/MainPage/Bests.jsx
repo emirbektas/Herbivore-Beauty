@@ -25,7 +25,7 @@ function Bests() {
     ],
   };
   return (
-    <div className="overflow-hidden bg-probg bg-half bg-no-repeat bg-center-top h-full w-full">
+    <div className="overflow-hidden bg-probg bg-cream bg-half bg-no-repeat bg-center-top h-full w-full">
       <div className="p-4">
         <h1 className="text-center font-bold text-2xl text-guap mt-2">
           OUR BEST SELLERS
@@ -206,7 +206,7 @@ function Bests() {
         )}
 
         <div className="text-center">
-          <button className="p-3 bg-white border border-guap text-guap text-sm rounded-md mt-12 hover:bg-guap hover:text-white">
+          <button className="p-3 bg-guap border border-guap text-cream text-sm rounded-md mt-12 hover:bg-cream hover:text-guap">
             <Link to="/products">SEE ALL</Link>
           </button>
         </div>

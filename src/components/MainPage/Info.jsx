@@ -9,8 +9,8 @@ import Bunny from "../../images/other/bunny.jpg";
 
 function Info() {
   return (
-    <div className="mb-20 mt-20">
-      <div className="grid grid-cols-3 gap-10">
+    <div className="mb-20 mt-20 ">
+      <div className="grid grid-cols-3 gap-10 xl:grid-cols-6 xl:gap-0 xl:px-20">
         <div className="my-auto text-center">
           <img src={Swiss} className="w-full h-12" alt="" />
           <span className="text-guap text-sm font-bold">SWISS MADE</span>
@@ -50,11 +50,11 @@ function Info() {
           <span className="text-guap text-sm font-bold ">CARBON OFFSET</span>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-10 mt-20 lg:px-20">
+      <div className=" grid grid-cols-2 gap-10 mt-20 lg:px-20">
         <div className="text-center">
-          <img src={List} className="rounded-lg" />
+          <img src={List} className="rounded-lg mx-auto hover:opacity-95" />
           <h1 className="text-xl font-bold mt-10 mb-10">OUR NO LIST</h1>
-          <p>
+          <p className="xxl:mx-20">
             At{" "}
             <span className="italic font-bold text-guap">Herbivore Beauty</span>
             , we say NO to ingredients and processes that cause harm to
@@ -62,23 +62,25 @@ function Info() {
             everything we need to make the products you love can be found in
             nature.
           </p>
-          <button className="p-2 bg-guap text-sm text-white mt-3 rounded">
+          <button className="p-2 bg-guap text-sm text-white mt-3 rounded xxl:mt-5">
             FIND OUT MORE
           </button>
         </div>
         <div className="text-center">
-          <img src={Bunny} className="rounded-lg" />
-          <h1 className="text-xl font-bold mt-10 mb-3">
+          <img src={Bunny} className="rounded-lg mx-auto hover:opacity-95" />
+          <h1 className="text-xl font-bold mt-10 mb-3 lg:mb-5 xl:mb-10">
             WHY SHOPPING CRUELTY FREE IS IMPORTANT
           </h1>
-          <p>
+          <p className="xxl:mx-20">
             If you're familiar with{" "}
-            <span className="text-guap italic font-bold">Herbivore Beauty</span>
+            <span className="text-guap italic font-bold ">
+              Herbivore Beauty
+            </span>
             , you probably know that being a socially responsible brand is very
             important to us. Part of that commitment is delivering great
             products that are both vegan and always cruelty-free.
           </p>
-          <button className="p-2 bg-guap text-sm text-white mt-3 rounded">
+          <button className="p-2 bg-guap text-sm text-white mt-3 rounded xxl:mt-5">
             READ MORE
           </button>
         </div>

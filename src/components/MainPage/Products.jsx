@@ -15,13 +15,22 @@ function Products() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1.75,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1.75,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="overflow-hidden bg-soft" id="products">
       <div className="px-6 pb-12">
-        <Slider {...settings}>
+        <Slider {...settings} className="lg:h-2/4">
           <div className="text-center p-10 ">
             <a href="">
               <div className="text-left">

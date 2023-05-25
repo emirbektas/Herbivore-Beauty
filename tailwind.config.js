@@ -20,6 +20,7 @@ export default {
       gwite: "#ebeaef",
       darky: "#1c1c1c",
       soft: "#f4f3f0",
+      cream: "#eff1e8",
     },
     screens: {
       sm: "640px",

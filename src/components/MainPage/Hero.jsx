@@ -35,7 +35,7 @@ function Hero() {
           </div>
         </Carousel>
       </div>
-      <div className="p-16 items-center mx-auto ">
+      <div className="p-16 items-center mx-auto bg-cream">
         <h1 className="text-xl text-center">
           At{" "}
           <span className="text-guap italic font-semibold cursor-pointer">
