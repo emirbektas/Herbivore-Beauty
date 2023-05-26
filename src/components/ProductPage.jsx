@@ -9,6 +9,7 @@ import Cleanser from "../images/other/cleanser.webp";
 import Sunscreen from "../images/other/sunscreen.webp";
 import Vitamin from "../images/other/vitamin.webp";
 import Product from "./Product";
+import Footer from "./MainPage/Footer";
 
 function ProductPage() {
   const [count, setCount] = useState(0);
@@ -51,39 +52,12 @@ function ProductPage() {
       price: "$49.99",
     },
   ];
-
-  // const onAdd = (product) => {
-  //   const exist = cartItems.find((x) => x.id === product.id);
-  //   if (exist) {
-  //     setCartItems(
-  //       cartItems.map((x) =>
-  //         x.id === product.id ? { ...exist, qty: exist.qty + 1 } : x
-  //       )
-  //     );
-  //   } else {
-  //     setCartItems([...cartItems, { ...product, qty: 1 }]);
-  //   }
-  // };
-
-  // const onRemove = (product) => {
-  //   const exist = cartItems.find((x) => x.id === product.id);
-  //   if (exist.qty === 1) {
-  //     setCartItems(cartItems.filter((x) => x.id !== product.id));
-  //   } else {
-  //     setCartItems(
-  //       cartItems.map((x) =>
-  //         x.id === product.id ? { ...exist, qty: exist.qty - 1 } : x
-  //       )
-  //     );
-  //   }
-  // };
-
   return (
-    <div className="container">
+    <div className="lg:px-20 xxl:px-52 bg-cream">
+      <Navbar count={count} setCount={setCount} />
       <div className="nav">
-        <Navbar count={count} setCount={setCount} />
-        <div className="bg-gwite pb-4 text-center">
-          <h1 className="text-2xl text-guap">BEST SELLERS</h1>
+        <div className="bg-gwite mb-4 text-center">
+          <h1 className="text-2xl text-guap bg-cream">BEST SELLERS</h1>
         </div>
       </div>
 
@@ -99,7 +73,7 @@ function ProductPage() {
           </button>
         </div>
 
-        <div className="item-list grid grid-cols-2 gap-5">
+        <div className="item-list grid grid-cols-2 gap-5 xl:grid-cols-3 xl:gap-14">
           {products.map((product) => (
             <Product
               count={count}

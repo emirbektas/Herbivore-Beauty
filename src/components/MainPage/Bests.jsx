@@ -25,7 +25,7 @@ function Bests() {
     ],
   };
   return (
-    <div className="overflow-hidden bg-probg bg-cream bg-half bg-no-repeat bg-center-top h-full w-full">
+    <div className="overflow-hidden bg-probg bg-cream bg-[length:100%_50%] lg:bg-none bg-no-repeat bg-center-top h-full w-full">
       <div className="p-4">
         <h1 className="text-center font-bold text-2xl text-guap mt-2">
           OUR BEST SELLERS

@@ -29,7 +29,7 @@ function Navbar({ count }) {
                   smooth={true}
                   offset={-10}
                   duration={500}
-                  className="hover:cursor-pointer"
+                  className="hover:cursor-pointer hover:text-guap hover:text-lg transition-all duration-300"
                 >
                   Ingredients
                 </Link>
@@ -41,7 +41,7 @@ function Navbar({ count }) {
                   smooth={true}
                   offset={-10}
                   duration={500}
-                  className="hover:cursor-pointer"
+                  className="hover:cursor-pointer hover:text-guap hover:text-lg transition-all duration-300"
                 >
                   Products
                 </Link>
@@ -53,7 +53,7 @@ function Navbar({ count }) {
                   smooth={true}
                   offset={-10}
                   duration={500}
-                  className="hover:cursor-pointer"
+                  className="hover:cursor-pointer hover:text-guap hover:text-lg transition-all duration-300"
                 >
                   FAQ
                 </Link>

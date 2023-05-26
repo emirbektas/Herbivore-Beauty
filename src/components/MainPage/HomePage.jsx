@@ -11,7 +11,9 @@ import React from "react";
 function HomePage() {
   return (
     <div className="App bg-cream">
-      <Navbar />
+      <div className="xl:px-20 xxl:px-40">
+        <Navbar />
+      </div>
       <Hero />
       <Bests />
       <div className="px-5">

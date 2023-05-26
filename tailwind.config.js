@@ -30,6 +30,12 @@ export default {
       xl: "1280px",
       xxl: "1536px",
     },
+    backgroundSize: {
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
+      "70%": "70%",
+    },
   },
   plugins: [require("flowbite/plugin")],
 };
